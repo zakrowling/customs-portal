@@ -1,0 +1,31 @@
+.page {
+  .table {
+    background: $white;
+    border: 1px rgba($green, .4) solid;
+    thead {
+      background: rgba($green, .25);
+      th {
+        color: rgba($black, .8);
+        font-weight: 600;
+        border-bottom-color: rgba($green, .25);
+        font-size: .8em;
+      }
+    }
+    tr {
+      td {
+        border-top-color: rgba($green, .25);
+        font-size: .85em;
+        .highlight {
+          color: $green;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  .small-table {
+    width: auto;
+    @include bp-medium {
+      width: 75%;
+    }
+  }
+}

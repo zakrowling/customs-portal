@@ -1,0 +1,45 @@
+.sidebar {
+  @include bp-x-small {
+    display: none;
+    background: $white;
+  }
+  @include bp-medium {
+    background: none;
+    display: block;
+    margin-top: 6rem;
+  }
+
+  nav {
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      a {
+        display: block;
+        padding: 1.4em 0 1.2rem 1rem;
+        border-bottom: 1px rgba($black, .1) solid;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: .8em;
+        letter-spacing: .5px;
+        transition: $smooth-transition;
+        &:hover {
+          text-decoration: none;
+          color: $green !important;
+        }
+        &.is-active {
+          background: $white;
+          border-left: 1px rgba($black, .15) solid;
+          border-right: 1px rgba($black, .15) solid;
+          border-bottom: 1px rgba($black, .15) solid;
+          &.first {
+            border-top: 1px rgba($black, .15) solid;
+          }
+        }
+        &:not(.is-active) {
+          color: rgba($black, .5);
+        }
+      }
+    }
+  }
+}

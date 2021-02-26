@@ -1,0 +1,33 @@
+// Theme colours
+$green: #009688;
+$white: #ffffff;
+$cloud: #F7F5F3;
+$black: #000000;
+
+
+// Theme variables
+$border-radius: 5px;
+$smooth-transition: all .3s ease;
+
+
+// Global styles
+body {
+    font-family: "Montserrat", sans-serif;
+    background: $cloud;
+}
+
+.container {
+    max-width: 1480px;
+}
+
+.lighten-text-50 {
+    color: lighten($black, 50%);
+}
+
+.round-edges {
+    border-radius: 100px;
+}
+
+.btn {
+    margin-bottom: 0px;
+}

@@ -1,0 +1,45 @@
+header {
+  background: $white;
+  border-bottom: 1px rgba($black, .1) solid;
+  
+  @include bp-medium {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .container {
+    height: 80px;
+
+    .findex-logo {
+      border-left: 1px rgba($black, .2) solid;
+    }
+
+    .client-logo {
+      margin-top: 5px;
+      max-width: 100px;
+      @include bp-medium {
+        margin-top: 0;
+        max-width: 300px;
+      }
+    }
+  }
+
+  .mobile-menu-icon {
+    color: $green;
+  }
+}
+
+.header-user {
+  display: flex;
+
+  .header-welcome {
+    line-height: 1.2em;
+  }
+  
+  .header-user-disc {
+    transform: scale(.75);
+    font-size: 1.2em;
+  }
+}

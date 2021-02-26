@@ -1,0 +1,71 @@
+.page {
+  padding-top: 2rem;
+  @include bp-medium {
+    padding-top: 6rem;
+  }
+
+  .page-title {
+      .arrow-forward {
+          font-size: .6em;
+          opacity: .25;
+      }
+  }
+
+  .page-toolbar {
+    background: $white;
+    border: 1px rgba($black, .15) solid;
+    form {
+      margin-bottom: 0;
+    }
+  }
+
+  .search-btn {
+    margin-bottom: 0;
+    padding-left: .5rem;
+    padding-bottom: 0;
+    opacity: .5;
+    transition: $smooth-transition;
+    &.btn {
+      &:hover {
+        opacity: 1;
+        background-color: rgba($white,0) !important;
+      }
+    }
+
+  }
+
+  .search-form {
+    border-right: 1px rgba($black, .15) solid;
+  }
+
+  .search-bar {
+    padding-left: 0;
+    padding-bottom: .6rem;
+    margin-bottom: 0;
+    label {
+        top: 1.75rem;
+        small {
+          font-size: .8em;
+          font-weight: 500;
+        }
+    }
+    .form-control {
+        line-height: 1.2;
+        padding-top: .5em !important;
+        background-image: none !important;
+    }
+  }
+}
+
+.modal-content {
+  .modal-footer {
+    padding: 1.2rem;
+  }
+}
+
+.btn-help {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    padding: .9rem 1.3rem;
+}
