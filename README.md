@@ -31,5 +31,5 @@ https://mdbootstrap.github.io/bootstrap-material-design/docs/4.0/examples/
 
 
 # Demo
-Click on Dashboard or Your Parts to navigate to each of these pages
+Click on Dashboard or Your Parts to navigate to each of these pages.
 https://zakrowling.github.io/customs-portal/
