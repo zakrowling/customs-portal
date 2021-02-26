@@ -20,7 +20,7 @@ The template themes are built with HTML / SCSS / JS.
 - img
   - This is where you can store images
 - scss
-  - All of the styling files are stored here. The styles.scss file imports all of the styles which can be found in the fragments folder. Use something like Compass (http://compass-style.org/) or Scout App (https://scout-app.io/) to process the SCSS into CSS. Scout App has an easy to use interface and it can easily watch for SCSS.
+  - All of the styling files are stored here. The styles.scss file in the root directory imports all of the styles which can be found in the fragments folder. Use something like Compass (http://compass-style.org/) or Scout App (https://scout-app.io/) to process the SCSS into CSS. Scout App has an easy to use interface and it can easily watch for SCSS.
 - js
   - This is where you can store Javascript
 
