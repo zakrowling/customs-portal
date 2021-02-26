@@ -65,7 +65,11 @@
 
 .btn-help {
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
+    bottom: .5rem;
+    right: .5rem;
     padding: .9rem 1.3rem;
+    @include bp-medium {
+      right: 2rem;
+      bottom: 2rem;
+    }
 }

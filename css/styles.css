@@ -190,9 +190,16 @@ header .mobile-menu-icon {
 
 .btn-help {
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: .5rem;
+  right: .5rem;
   padding: .9rem 1.3rem;
+}
+
+@media (min-width: 992px) {
+  .btn-help {
+    right: 2rem;
+    bottom: 2rem;
+  }
 }
 
 .page .table {
