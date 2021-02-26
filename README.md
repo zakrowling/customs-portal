@@ -13,10 +13,15 @@ https://mdbootstrap.github.io/bootstrap-material-design/docs/4.0/getting-started
 
 
 # Folder structure
+The template themes are built with HTML / SCSS / JS.
 - css
+  This folder contains the processed SCSS for the theme styles. Do not edit this CSS file. Make changes in the SCSS folder and process the CSS properly.changes.
 - img
+  This is where you can store images
 - scss
+  All of the styling files are stored here. The styles.scss file imports all of the styles which can be found in the fragments folder. Use something like Compass (http://compass-style.org/) or Scout App (https://scout-app.io/) to process the SCSS into CSS. Scout App has an easy to use interface and it can easily watch for SCSS.
 - js
+  This is where you can store Javascript
 
 # Examples
 To see what is possible in the MDB library, have a look at these examples.
