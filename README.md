@@ -1,6 +1,6 @@
 # Customs portal template
 
-The templates in this repository are based on the Material Design for Bootstrap (MDB) framework. This is the Material Design UI element library on top of the standard Bootstrap front end development framework.
+The templates in this repository are based on the Material Design for Bootstrap (MDB) framework. This is the Material Design UI component library on top of the standard Bootstrap front end development framework.
 More details on MDB here: https://mdbootstrap.github.io/bootstrap-material-design/
 
 The original Material Design framework is available here:
