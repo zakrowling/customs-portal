@@ -22,9 +22,14 @@ The template themes are built with HTML / SCSS / JS.
 - img
   - This is where you can store images
 - scss
-  - All of the styling files are stored here. The styles.scss file in the root directory imports all of the styles which can be found in the fragments folder. Use something like Compass (http://compass-style.org/) or Scout App (https://scout-app.io/) to process the SCSS into CSS. Scout App has an easy to use interface and it can easily watch for SCSS.
+  - All of the styling files are stored here. The styles.scss file in the root directory imports all of the styles which can be found in the fragments folder. Use something like Compass (http://compass-style.org/) or Scout App (https://scout-app.io/) to process the SCSS into CSS. Scout App has an easy to use interface and it can easily watch for SCSS. The fragment folder contains styles that override the MDB framework and are intentionally split up by sections of the portal eg. sidebar, table, header..etc.
 - js
-  - This is where you can store Javascript
+  - This is where you can store all of your Javascript. Out of the box, the MDB framework uses jQuery, Popper.js, and a custom Bootstrap JS source.
+
+
+# UI Components
+All of the UI components that come with the MDB library are documented here. This includes buttons, inputs, headings, alerts, modal popups, tables, and much more.
+https://mdbootstrap.github.io/bootstrap-material-design/docs/4.0/bootstrap-components/alerts/
 
 
 # Examples
@@ -33,5 +38,5 @@ https://mdbootstrap.github.io/bootstrap-material-design/docs/4.0/examples/
 
 
 # Demo
-Click on Dashboard or Your Parts to navigate to each of these pages. Click on Add New Part to demo a Bootstrap modal window.
+Click on Dashboard or Your Parts to navigate to each of these pages. Click on Add New Part to demo a Bootstrap modal popup.
 https://zakrowling.github.io/customs-portal/
