@@ -18,7 +18,7 @@ https://mdbootstrap.github.io/bootstrap-material-design/docs/4.0/getting-started
 # Folder structure
 The template themes are built with HTML / SCSS / JS.
 - css
-  - This folder contains the processed SCSS for the theme styles. Do not edit this CSS file. Make changes in the SCSS folder and process the CSS properly.changes.
+  - This folder contains the processed CSS for the theme styles. Do not edit this CSS file. Make changes in the SCSS folder and process the CSS properly.changes.
 - img
   - This is where you can store images
 - scss
